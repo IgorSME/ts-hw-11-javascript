@@ -1,4 +1,6 @@
-export default function cardsMarkup(arr) {
+import { ICard } from "./appTypes"
+
+export default function cardsMarkup(arr:ICard[]) {
     return arr.map(({
         webformatURL,
         largeImageURL,
